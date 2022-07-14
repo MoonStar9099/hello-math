@@ -1,3 +1,14 @@
+import fibonacci
+import MaxNum
+import MinNum
+import PeriOfRect
+import Sum
+import Difference
+import ReverseList
+import EvenOrOdd
+import PeriOfRect
+import AreaOfRect
+
 print("-------------------- Basic Math: A Simple Program --------------------")
 print('Welcome to Basic Math!')
 def Home():
@@ -34,13 +45,14 @@ Area of Rectangle - 1\nPerimeter of Rectangle - 2\nList: Even or Odd? - 3\nAddit
         print("As you wish.")
         ReverseList()
     elif userChoice == '10':
-        fibonacci()
+        FibonacciSequence()
     elif userChoice == '11':
         print("As you wish.")
         quit()
     else:
         print("That's not an option. Please try again.")
         Home()
+'''
 def AreaOfRect():
     
     print("------------------------ Area of Rectangle -------------------") 
@@ -389,6 +401,7 @@ Remember, even/odd classification doesn't apply to decimals. Please try again.''
                     print("*Sigh*")
                     print("END OF PROGRAM")
                     Home()
+'''
 def ReverseList():
     print("-------------------- Reverse List --------------------")
     print('Welcome to Reverse List!')
@@ -478,6 +491,6 @@ def Subtraction():
                     print("END OF PROGRAM")
                     Home()
 def fibonacci():
-    print("Coming soon!")
-    Home()
+    FibonacciSequence()
+'''    
 Home()
