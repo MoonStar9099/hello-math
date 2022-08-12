@@ -1,0 +1,19 @@
+x = 42
+
+ToF = None
+
+def eOo(x):
+ print(" ================== Even or Odd? ==================")
+ try:
+    int(input())
+    ToF == True
+ except ValueError:
+    ToF == False
+
+ if ToF == True:
+     print("EVEN!")
+
+ if ToF == False:
+     print("FALSE!")
+
+eOo(x)
